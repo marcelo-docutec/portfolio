@@ -12,6 +12,7 @@ ReactDOM.render(
       <Route path='/dashboard' component={Dashboard}/>
       <Redirect from='/' to='/dashboard'/>
     </Switch>
-  </Router>
-  , document.getElementById('root'));
+  </Router>,
+  document.getElementById('root'),
+);
 serviceWorker.unregister();

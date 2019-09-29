@@ -9,7 +9,7 @@ module.exports = {
       "quotes": [2, "single", { "avoidEscape": true }]
     },
     parserOptions: {
-      ecmaVersion: 6,
+      ecmaVersion: 2018,
       sourceType: "module",
       ecmaFeatures: {
         jsx: true
@@ -18,7 +18,8 @@ module.exports = {
     plugins: ["react"],
     extends: [
       "eslint:recommended",
-      "plugin:react/recommended"
+      "plugin:react/recommended",
+      "plugin:prettier/recommended"
     ]
   };
   
