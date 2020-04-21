@@ -1,11 +1,9 @@
 import React from 'react';
-import Button from 'components/commons/Button';
-import Navbar from 'components/Navbar';
+import Button from 'components/atoms/Button';
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <div>Home</div>
       <Button href="/as" Button color="primary" variant="contained">
         See projects
